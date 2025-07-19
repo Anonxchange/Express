@@ -1,78 +1,56 @@
+/* style.css */
+
 body {
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
+  font-family: "Segoe UI", sans-serif;
+  background: #f9f9f9;
+  color: #222;
 }
 
 header {
-  background-color: #ffffff;
+  background-color: #003b2f;
+  color: white;
+  padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 1.5rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-}
-
-header h1 {
-  font-size: 1.5rem;
-  color: #003b2f;
 }
 
 nav a {
+  color: white;
   margin-left: 1rem;
   text-decoration: none;
-  color: #003b2f;
-  font-weight: 600;
+  font-weight: bold;
 }
 
-.hero-section {
-  background-color: #003b2f;
-  color: white;
-  padding: 2rem 1rem;
-  border-radius: 1.5rem;
-  max-width: 400px;
-  margin: 2rem auto;
-  text-align: left;
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background-color: #e6f5f1;
 }
 
-.hero-section h2 {
+.hero h2 {
+  font-size: 2rem;
   margin-bottom: 0.5rem;
-  font-size: 1.8rem;
 }
 
-.hero-section p {
-  margin-bottom: 1.2rem;
-  font-size: 1rem;
-}
-
-.hero-section a {
-  display: inline-block;
+.btn {
   background-color: #00d084;
   color: white;
   padding: 0.75rem 1.5rem;
-  border-radius: 8px;
   text-decoration: none;
-  font-weight: bold;
+  border-radius: 6px;
   transition: background-color 0.3s ease;
 }
 
-.hero-section a:hover {
-  background-color: #00b870;
-}
-
-.hero-image {
-  max-width: 90%;
-  display: block;
-  margin: 1.5rem auto 2rem;
-  border-radius: 1.2rem;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+.btn:hover {
+  background-color: #00b373;
 }
 
 footer {
+  background-color: #003b2f;
+  color: white;
   text-align: center;
   padding: 1rem;
-  background-color: #eeeeee;
-  font-size: 0.9rem;
-  color: #555;
+  margin-top: 2rem;
 }

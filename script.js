@@ -1,11 +1,14 @@
-// Wait until the page has loaded
-document.addEventListener('DOMContentLoaded', () => {
-  const bookButton = document.querySelector('button');
+// script.js
 
-  bookButton.addEventListener('click', () => {
-    alert('Booking feature coming soon...');
-    
-    // Later: redirect to booking page or open booking modal
-    // window.location.href = "/book.html";
-  });
+document.addEventListener('DOMContentLoaded', () => {
+  const form = document.getElementById('bookingForm');
+  const status = document.getElementById('statusMessage');
+
+  if (form) {
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      status.textContent = "Booking sent! (Mock)";
+      form.reset();
+    });
+  }
 });

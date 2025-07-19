@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9f9;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero {
+  padding: 60px 20px 40px;
+  text-align: center;
+  background: #34d186;
+  color: white;
+  width: 100%;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background: #fff;
+  color: #34d186;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #e0ffe8;
+}
+
+.map-preview img {
+  max-width: 90%;
+  height: auto;
+  margin: 40px 0;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #222;
+  color: white;
+  width: 100%;
+}
+
+.store-links img {
+  width: 140px;
+  margin: 10px;
+}
